@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+
+    margin: 0;
+    background: url(../images/wallp1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+main {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(204,26,135,0.342472022988883) 0%, rgba(0,48,255,0.4209033955379027) 100%);
+    position: absolute;
+    z-index: 2;
+}
+
+.text {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    line-height: 4rem;
+    margin-top: 45vh;
+}
+
